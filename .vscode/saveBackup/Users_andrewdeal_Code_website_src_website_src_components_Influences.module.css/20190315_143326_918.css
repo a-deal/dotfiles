@@ -1,0 +1,9 @@
+.align-right {
+  text-align: right;
+}
+
+.rule {
+  border-bottom: 1px solid #1e0903;
+  width: 3em;
+  margin: 0 0 10px 0;
+}

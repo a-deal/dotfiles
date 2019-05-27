@@ -1,0 +1,11 @@
+.bullet-svg {
+  height: 15px;
+}
+
+.ellipsis-svg {
+  height: 15px;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+}

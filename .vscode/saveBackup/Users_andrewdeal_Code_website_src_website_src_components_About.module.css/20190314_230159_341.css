@@ -1,0 +1,25 @@
+.bullet-svg {
+  height: 25px;
+  width: 250px;
+}
+
+.ellipsis-svg {
+  height: 15px;
+}
+
+.rotate {
+  transform: rotate(-90deg);
+  position: relative;
+  bottom: -50px;
+  left: -50px;
+}
+
+.profile-picture {
+  margin-left: 50px;
+  height: 200px;
+  border-radius: 20px 80px 20px;
+}
+
+.container {
+  padding-left: 10px;
+}

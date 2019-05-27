@@ -1,0 +1,66 @@
+{
+	"name": "savebackup",
+	"displayName": "saveBackup",
+	"description": "Backup file when you save.",
+	"version": "0.0.4",
+	"publisher": "purplestone",
+	"tags": [
+		"save",
+		"backup",
+		"bak"
+	],
+	"icon": "saveBackup.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/purplestone/vscode-saveBackup.git"
+	},
+	"bugs": {
+		"url": "https://github.com/purplestone/vscode-saveBackup/issues"
+	},
+	"engines": {
+		"vscode": "^1.14.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.saveBackup.backupFile",
+				"title": "Backup File"
+			}
+		],
+		"configuration": {
+			"title": "Extension saveBackup",
+			"type": "object",
+			"properties": {
+				"saveBackup.conf.enable": {
+					"type": "boolean",
+					"description": "Automatically backup into BAK_DIR when save.",
+					"default": true
+				},
+				"saveBackup.conf.backupDir": {
+					"type": "string",
+					"description": "Dir path that backup to.",
+					"default": "${.vscode}/saveBackup"
+				},
+				"saveBackup.conf.fileNameMatch": {
+					"type": "string",
+					"description": "Regex for matching files to save enable",
+					"default": ".*"
+				}
+			}
+		}
+	},
+	"scripts": {},
+	"devDependencies": {},
+	"__metadata": {
+		"id": "1735f8c2-4ffe-4602-becf-a2d12cd4dcc5",
+		"publisherId": "49c5fefe-33a3-468c-b0b8-b5e995789d95",
+		"publisherDisplayName": "purplestone"
+	}
+}
