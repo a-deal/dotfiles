@@ -1,0 +1,21 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+   {
+       "key": "ctrl+w", "command": "expand_region"
+   },
+   {
+       "key": "ctrl+shift+w", "command": "undo_expand_region"
+   },
+   {
+       "key": "ctrl+r", "command": "fileutils.renameFile"
+   },
+   {
+       "key": "ctrl+d", "command": "fileutils.duplicateFile"
+   },
+   {
+       "key": "ctrl+m", "command": "fileutils.moveFile"
+   },
+   {
+       "key": "ctrl+n", "command": "fileutils.newFile"
+   }
+]
